@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Earth Curvature Calculator
+Comment=Interactive Earth Curvature & Atmospheric Refraction Calculator
+Exec=bash -c "cd \"$(dirname \"%k\")\" && ./earth_curvature_gui.sh"
+Icon=applications-science
+Terminal=false
+Type=Application
+Categories=Science;Education;

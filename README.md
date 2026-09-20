@@ -124,17 +124,23 @@ At $10\text{ miles}$, the 8 in/mi² naive formula claims $66.7\text{ ft}$ is hid
 
 ---
 
-## 💻 Usage: Interactive Web UI & Command-Line Tool
+## 💻 Usage: Live Web App, Local UI & Command-Line Tool
 
-### 1. Interactive Web Application
-Open [`earth_curvature_calculator.html`](file:///home/me/git/conf/earth_curvature_calculator.html) directly in any browser:
+### 🌐 1. Live Web Application (GitHub Pages)
+Visit the live deployed site in any modern browser:
+👉 **[https://comshadowharvy.github.io/earch-curve/](https://comshadowharvy.github.io/earch-curve/)**
+
+---
+
+### 🖥️ 2. Local Desktop Web App
+Run the launcher script to open the calculator in your default browser:
 
 ```bash
 # Launch via helper script
 ./earth_curvature_gui.sh
 
-# Or open directly in browser
-xdg-open earth_curvature_calculator.html
+# Or open directly
+xdg-open index.html
 ```
 
 **Web App Features**:
@@ -146,8 +152,8 @@ xdg-open earth_curvature_calculator.html
 
 ---
 
-### 2. Terminal Command-Line Tool
-Run [`earth_curvature.py`](file:///home/me/git/conf/scripts/bin/earth_curvature.py) directly:
+### ⚡ 3. Terminal Command-Line Tool
+Run `./earth_curvature.py` directly from the repository root:
 
 ```bash
 # Standard 10-mile scan (6 ft observer eye level, 100 ft target)
